@@ -1,40 +1,26 @@
+import 'package:first_app/pages/home_page.dart';
 import 'package:flutter/material.dart';
+import 'package:first_app/pages/login_page.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
-  void answerQuestion() {
-    print('Answer Chosen');
-  }
-
   @override
   Widget build(BuildContext context) {
-    var questions = [
-      'What is your favorite color?',
-      'What is your favorite animal?',
-    ];
     return MaterialApp(
-      home: Scaffold(
-          appBar: AppBar(
-            title: const Text('My First App'),
-          ),
-          body: Column(
-            children: [
-              const Text('The Question'),
-              RaisedButton(
-                onPressed: answerQuestion,
-                child: const Text('Answer 1'),
-              ),
-              RaisedButton(
-                onPressed: () => print('Answer 2 chosen'),
-                child: const Text('Answer 2'),
-              ),
-              RaisedButton(
-                onPressed: () => print('Answer 3 chosen'),
-                child: const Text('Answer 3'),
-              ),
-            ],
-          )),
+      themeMode: ThemeMode.light,
+      theme: ThemeData(primarySwatch: Colors.teal),
+      darkTheme: ThemeData(
+        brightness: Brightness.dark,
+      ),
+      initialRoute: "/home",
+      routes: {
+        "/": (context) => LoginPage(),
+        "/home": (context) => HomePage(),
+        "/login": (context) => LoginPage()
+      },
     );
   }
 }
