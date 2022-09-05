@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 import '../utils/routes.dart';
 
@@ -29,7 +30,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Material(
-        color: Colors.white,
+        color: context.canvasColor,
         child: SingleChildScrollView(
             child: Form(
           key: _formKey,
@@ -90,7 +91,7 @@ class _LoginPageState extends State<LoginPage> {
                   height: 40.0,
                 ),
                 Material(
-                    color: Color.fromARGB(255, 164, 219, 213),
+                    color: context.theme.buttonColor,
                     borderRadius: BorderRadius.circular(changeButton ? 20 : 8),
                     child: InkWell(
                         onTap: () => moveToHome(context),

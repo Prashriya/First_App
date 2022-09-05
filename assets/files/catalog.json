@@ -1,0 +1,63 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "iPhone 12 Pro",
+            "desc": "Apple iPhone 12th generation",
+            "price": 999,
+            "color": "#33505a",
+            "image":
+                "https://images.unsplash.com/photo-1611791485440-24e8239a0377?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aXBob25lJTIwMTIlMjBwcm98ZW58MHx8MHx8&w=1000&q=80"
+        },
+
+        {
+            "id": 2,
+            "name": "Pixel 5",
+            "desc": "Google Pixel Phone 5th generation",
+            "price": 699,
+            "color": "#00ac51",
+            "image":
+                "https://images.unsplash.com/photo-1611791485440-24e8239a0377?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aXBob25lJTIwMTIlMjBwcm98ZW58MHx8MHx8&w=1000&q=80"
+        },
+
+        {
+        "id": 3,
+        "name": "M1 Macbook Air",
+        "desc": "Apple Macbook Air with apple silicon",
+        "price": 1099,
+        "color": "#e0bfae",
+        "image":
+            "https://images.unsplash.com/photo-1611791485440-24e8239a0377?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aXBob25lJTIwMTIlMjBwcm98ZW58MHx8MHx8&w=1000&q=80"
+    },
+
+    {
+        "id": 4,
+        "name": "PlayStation 5",
+        "desc": "Sony PlayStation 5th generation",
+        "price": 199,
+        "color": "#00ac51",
+        "image":
+            "https://images.unsplash.com/photo-1611791485440-24e8239a0377?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aXBob25lJTIwMTIlMjBwcm98ZW58MHx8MHx8&w=1000&q=80"
+    },
+
+    {
+        "id": 5,
+        "name": "iPad Pro",
+        "desc": "iPad Pro 2020 edition",
+        "price": 799,
+        "color": "#f73984",
+        "image":
+            "https://images.unsplash.com/photo-1611791485440-24e8239a0377?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aXBob25lJTIwMTIlMjBwcm98ZW58MHx8MHx8&w=1000&q=80"
+    },
+        
+    {
+        "id": 6,
+        "name": "Galaxy S21 Ultra",
+        "desc": "Samsung Galaxy S21 Ultra 2021 edition",
+        "price": 699,
+        "color": "#00ac51",
+        "image":
+            "https://images.unsplash.com/photo-1611791485440-24e8239a0377?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aXBob25lJTIwMTIlMjBwcm98ZW58MHx8MHx8&w=1000&q=80"
+    }
+    ]
+}
